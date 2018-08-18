@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game // Miguel // JQuery Homework Aug 2018</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="instructions">
+        <h3>Instructions</h3>
+        </br>
+        <ul>
+            <li>You will be given a random number at the start of the game.
+                <span>"Number To Get"</span>
+            </li>
+            <li>There are four crystals below.</li>
+            <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+            <li>You win the game by matching your running total to the random number.</li>
+            <li>You lose the game if your running total goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Gem values reset upon starting a new game.</li>
+            <li>GOOD LUCK</li>
+        </ul>
+    </div>
+    <div class="numberToMatch">
+        <h2>Number To Match:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+    <div class="userTotal">
+        <h2>Your running total is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+    <div class="gems">
+        <img src="assets/images/blue-gem.png" class=gemImage id="blue" alt="Blue Gem">
+        <img src="assets/images/green-gem.png" class=gemImage id="green" alt="Green Gem">
+        <img src="assets/images/red-gem.png" class=gemImage id="red" alt="Red Gem">
+        <img src="assets/images/yellow-gem.png" class=gemImage id="yellow" alt="Yellow Gem">
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+
+
+</body>
+
+</html>
