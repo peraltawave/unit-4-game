@@ -14,7 +14,7 @@ $(document).ready(function () {
     var gem4 = Math.floor(Math.random() * 11 + 1)
     // Setting up random numbers for each jewel
     // Random number has to be between 1 - 12
-    
+
 
     // Setting initial variables to 0
     var playerTotal = 0;
